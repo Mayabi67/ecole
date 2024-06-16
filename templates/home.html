@@ -5,6 +5,7 @@
 {% block content %}
 {% if user.is_authenticated %}
 <p>Hi {{ user.username }}!</p>
+<a href="{% url 'start' %}">Start Quiz</a>
 <p><a href="{% url 'password_change' %}">Password Change</a></p>
 
 <form action="{% url 'logout' %}" method="post">
@@ -14,6 +15,7 @@
 
 {% else %}
 <p>You are not logged in</p>
+<a href="{% url 'signup' %}">Sign Up</a>
 <p><a href="{% url 'password_reset' %}">Password Reset</a></p>
 <a href="{% url 'login' %}">Log In</a>
 {% endif %}

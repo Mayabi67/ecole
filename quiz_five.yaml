@@ -1,0 +1,236 @@
+-   model: sim.quiz
+    pk: 6
+    fields:
+        name: Organic Chemistry Alkanols and Alkanoic Acids
+-   model: sim.question
+    pk: 40
+    fields:
+        quiz: 6
+        text: What functional group characterizes alkanols (alcohols)?
+-   model: sim.answer
+    pk: 147
+    fields:
+        question: 40
+        text: Hydroxyl group (-OH)
+        is_correct: true
+-   model: sim.answer
+    pk: 148
+    fields:
+        question: 40
+        text: Carboxyl group (-COOH)
+        is_correct: false
+-   model: sim.answer
+    pk: 149
+    fields:
+        question: 40
+        text: Amino group (-NH2)
+        is_correct: false
+-   model: sim.answer
+    pk: 150
+    fields:
+        question: 40
+        text: Aldehyde group (-CHO)
+        is_correct: false
+-   model: sim.question
+    pk: 41
+    fields:
+        quiz: 6
+        text: What is the common name for methanoic acid?
+-   model: sim.answer
+    pk: 151
+    fields:
+        question: 41
+        text: Formic acid
+        is_correct: true
+-   model: sim.answer
+    pk: 152
+    fields:
+        question: 41
+        text: Acetic acid
+        is_correct: false
+-   model: sim.answer
+    pk: 153
+    fields:
+        question: 41
+        text: Propionic acid
+        is_correct: false
+-   model: sim.answer
+    pk: 154
+    fields:
+        question: 41
+        text: Butyric acid
+        is_correct: false
+-   model: sim.question
+    pk: 42
+    fields:
+        quiz: 6
+        text: What is the molecular formula of ethanol?
+-   model: sim.answer
+    pk: 155
+    fields:
+        question: 42
+        text: C2H5OH
+        is_correct: true
+-   model: sim.answer
+    pk: 156
+    fields:
+        question: 42
+        text: CH3OH
+        is_correct: false
+-   model: sim.answer
+    pk: 157
+    fields:
+        question: 42
+        text: C3H7OH
+        is_correct: false
+-   model: sim.answer
+    pk: 158
+    fields:
+        question: 42
+        text: C2H4OH
+        is_correct: false
+-   model: sim.question
+    pk: 43
+    fields:
+        quiz: 6
+        text: Which reaction is used to convert an alkanol to an alkanoic acid?
+-   model: sim.answer
+    pk: 159
+    fields:
+        question: 43
+        text: Oxidation
+        is_correct: true
+-   model: sim.answer
+    pk: 160
+    fields:
+        question: 43
+        text: Reduction
+        is_correct: false
+-   model: sim.answer
+    pk: 161
+    fields:
+        question: 43
+        text: Hydrolysis
+        is_correct: false
+-   model: sim.answer
+    pk: 162
+    fields:
+        question: 43
+        text: Esterification
+        is_correct: false
+-   model: sim.question
+    pk: 44
+    fields:
+        quiz: 6
+        text: What product is formed when ethanoic acid reacts with ethanol in the presence of an acid catalyst?
+-   model: sim.answer
+    pk: 163
+    fields:
+        question: 44
+        text: Ethyl ethanoate
+        is_correct: true
+-   model: sim.answer
+    pk: 164
+    fields:
+        question: 44
+        text: Ethyl acetate
+        is_correct: false
+-   model: sim.answer
+    pk: 165
+    fields:
+        question: 44
+        text: Methanol
+        is_correct: false
+-   model: sim.answer
+    pk: 166
+    fields:
+        question: 44
+        text: Methanoic acid
+        is_correct: false
+-   model: sim.question
+    pk: 45
+    fields:
+        quiz: 6
+        text: Which of the following is a characteristic property of carboxylic acids?
+-   model: sim.answer
+    pk: 167
+    fields:
+        question: 45
+        text: They turn blue litmus paper red
+        is_correct: true
+-   model: sim.answer
+    pk: 168
+    fields:
+        question: 45
+        text: They turn red litmus paper blue
+        is_correct: false
+-   model: sim.answer
+    pk: 169
+    fields:
+        question: 45
+        text: They have a slippery feel
+        is_correct: false
+-   model: sim.answer
+    pk: 170
+    fields:
+        question: 45
+        text: They taste bitter
+        is_correct: false
+-   model: sim.question
+    pk: 46
+    fields:
+        quiz: 6
+        text: What is the IUPAC name for the compound with the formula CH3COOH?
+-   model: sim.answer
+    pk: 171
+    fields:
+        question: 46
+        text: Ethanoic acid
+        is_correct: true
+-   model: sim.answer
+    pk: 172
+    fields:
+        question: 46
+        text: Methanoic acid
+        is_correct: false
+-   model: sim.answer
+    pk: 173
+    fields:
+        question: 46
+        text: Propanoic acid
+        is_correct: false
+-   model: sim.answer
+    pk: 174
+    fields:
+        question: 46
+        text: Butanoic acid
+        is_correct: false
+-   model: sim.question
+    pk: 47
+    fields:
+        quiz: 6
+        text: Which of the following alkanols is commonly used as a disinfectant?
+-   model: sim.answer
+    pk: 175
+    fields:
+        question: 47
+        text: Ethanol
+        is_correct: true
+-   model: sim.answer
+    pk: 176
+    fields:
+        question: 47
+        text: Methanol
+        is_correct: false
+-   model: sim.answer
+    pk: 177
+    fields:
+        question: 47
+        text: Propanol
+        is_correct: false
+-   model: sim.answer
+    pk: 178
+    fields:
+        question: 47
+        text: Butanol
+        is_correct: false

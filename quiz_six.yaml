@@ -1,0 +1,265 @@
+-   model: sim.quiz
+    pk: 7
+    fields:
+        name: Radioactivity
+-   model: sim.question
+    pk: 48
+    fields:
+        quiz: 7
+        text: What is the process by which an unstable atomic nucleus loses energy by radiation?
+-   model: sim.answer
+    pk: 179
+    fields:
+        question: 48
+        text: Radioactive decay
+        is_correct: true
+-   model: sim.answer
+    pk: 180
+    fields:
+        question: 48
+        text: Nuclear fusion
+        is_correct: false
+-   model: sim.answer
+    pk: 181
+    fields:
+        question: 48
+        text: Nuclear fission
+        is_correct: false
+-   model: sim.answer
+    pk: 182
+    fields:
+        question: 48
+        text: Ionization
+        is_correct: false
+-   model: sim.question
+    pk: 49
+    fields:
+        quiz: 7
+        text: Which type of radiation is the most penetrating?
+-   model: sim.answer
+    pk: 183
+    fields:
+        question: 49
+        text: Gamma rays
+        is_correct: true
+-   model: sim.answer
+    pk: 184
+    fields:
+        question: 49
+        text: Alpha particles
+        is_correct: false
+-   model: sim.answer
+    pk: 185
+    fields:
+        question: 49
+        text: Beta particles
+        is_correct: false
+-   model: sim.answer
+    pk: 186
+    fields:
+        question: 49
+        text: Neutrons
+        is_correct: false
+-   model: sim.question
+    pk: 50
+    fields:
+        quiz: 7
+        text: What is the half-life of a radioactive substance?
+-   model: sim.answer
+    pk: 187
+    fields:
+        question: 50
+        text: The time it takes for half of the radioactive atoms to decay
+        is_correct: true
+-   model: sim.answer
+    pk: 188
+    fields:
+        question: 50
+        text: The time it takes for all of the radioactive atoms to decay
+        is_correct: false
+-   model: sim.answer
+    pk: 189
+    fields:
+        question: 50
+        text: The time it takes for the radioactivity to become harmless
+        is_correct: false
+-   model: sim.answer
+    pk: 190
+    fields:
+        question: 50
+        text: The time it takes for the radioactive substance to be detected
+        is_correct: false
+-   model: sim.question
+    pk: 51
+    fields:
+        quiz: 7
+        text: Which instrument is commonly used to detect and measure radiation?
+-   model: sim.answer
+    pk: 191
+    fields:
+        question: 51
+        text: Geiger-Muller counter
+        is_correct: true
+-   model: sim.answer
+    pk: 192
+    fields:
+        question: 51
+        text: Barometer
+        is_correct: false
+-   model: sim.answer
+    pk: 193
+    fields:
+        question: 51
+        text: Thermometer
+        is_correct: false
+-   model: sim.answer
+    pk: 194
+    fields:
+        question: 51
+        text: Voltmeter
+        is_correct: false
+-   model: sim.question
+    pk: 52
+    fields:
+        quiz: 7
+        text: What particle is emitted during alpha decay?
+-   model: sim.answer
+    pk: 195
+    fields:
+        question: 52
+        text: A helium nucleus
+        is_correct: true
+-   model: sim.answer
+    pk: 196
+    fields:
+        question: 52
+        text: An electron
+        is_correct: false
+-   model: sim.answer
+    pk: 197
+    fields:
+        question: 52
+        text: A proton
+        is_correct: false
+-   model: sim.answer
+    pk: 198
+    fields:
+        question: 52
+        text: A neutron
+        is_correct: false
+-   model: sim.question
+    pk: 53
+    fields:
+        quiz: 7
+        text: Which of the following is a common use of radioactive isotopes in medicine?
+-   model: sim.answer
+    pk: 199
+    fields:
+        question: 53
+        text: Imaging and cancer treatment
+        is_correct: true
+-   model: sim.answer
+    pk: 200
+    fields:
+        question: 53
+        text: Antiseptic and sterilization
+        is_correct: false
+-   model: sim.answer
+    pk: 201
+    fields:
+        question: 53
+        text: Anesthetic and sedation
+        is_correct: false
+-   model: sim.answer
+    pk: 202
+    fields:
+        question: 53
+        text: Pain relief and anti-inflammatory
+        is_correct: false
+-   model: sim.question
+    pk: 54
+    fields:
+        quiz: 7
+        text: What change occurs to an element when it undergoes beta decay?
+-   model: sim.answer
+    pk: 203
+    fields:
+        question: 54
+        text: A neutron is converted to a proton
+        is_correct: true
+-   model: sim.answer
+    pk: 204
+    fields:
+        question: 54
+        text: A proton is converted to a neutron
+        is_correct: false
+-   model: sim.answer
+    pk: 205
+    fields:
+        question: 54
+        text: It loses two protons
+        is_correct: false
+-   model: sim.answer
+    pk: 206
+    fields:
+        question: 54
+        text: It gains an electron
+        is_correct: false
+-   model: sim.question
+    pk: 55
+    fields:
+        quiz: 7
+        text: Which element is commonly used as a fuel in nuclear reactors?
+-   model: sim.answer
+    pk: 207
+    fields:
+        question: 55
+        text: Uranium
+        is_correct: true
+-   model: sim.answer
+    pk: 208
+    fields:
+        question: 55
+        text: Carbon
+        is_correct: false
+-   model: sim.answer
+    pk: 209
+    fields:
+        question: 55
+        text: Hydrogen
+        is_correct: false
+-   model: sim.answer
+    pk: 210
+    fields:
+        question: 55
+        text: Sodium
+        is_correct: false
+-   model: sim.question
+    pk: 56
+    fields:
+        quiz: 7
+        text: Which type of radiation is stopped by a sheet of paper?
+-   model: sim.answer
+    pk: 211
+    fields:
+        question: 56
+        text: Alpha particles
+        is_correct: true
+-   model: sim.answer
+    pk: 212
+    fields:
+        question: 56
+        text: Beta particles
+        is_correct: false
+-   model: sim.answer
+    pk: 213
+    fields:
+        question: 56
+        text: Gamma rays
+        is_correct: false
+-   model: sim.answer
+    pk: 214
+    fields:
+        question: 56
+        text: Neutrons
+        is_correct: false

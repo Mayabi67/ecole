@@ -1,0 +1,207 @@
+-   model: sim.quiz
+    pk: 3
+    fields:
+        name: Acids, Bases, and Salts
+-   model: sim.question
+    pk: 18
+    fields:
+        quiz: 3
+        text: What is the pH range of acids?
+-   model: sim.answer
+    pk: 59
+    fields:
+        question: 18
+        text: 0 to 7
+        is_correct: true
+-   model: sim.answer
+    pk: 60
+    fields:
+        question: 18
+        text: 7 to 14
+        is_correct: false
+-   model: sim.answer
+    pk: 61
+    fields:
+        question: 18
+        text: 7
+        is_correct: false
+-   model: sim.answer
+    pk: 62
+    fields:
+        question: 18
+        text: 0 to 14
+        is_correct: false
+-   model: sim.question
+    pk: 19
+    fields:
+        quiz: 3
+        text: What is a common property of bases?
+-   model: sim.answer
+    pk: 63
+    fields:
+        question: 19
+        text: They taste bitter and feel slippery
+        is_correct: true
+-   model: sim.answer
+    pk: 64
+    fields:
+        question: 19
+        text: They taste sour and feel rough
+        is_correct: false
+-   model: sim.answer
+    pk: 65
+    fields:
+        question: 19
+        text: They are always solid at room temperature
+        is_correct: false
+-   model: sim.answer
+    pk: 66
+    fields:
+        question: 19
+        text: They turn red litmus paper blue
+        is_correct: true
+-   model: sim.question
+    pk: 20
+    fields:
+        quiz: 3
+        text: What is the product of a neutralization reaction between an acid and a base?
+-   model: sim.answer
+    pk: 67
+    fields:
+        question: 20
+        text: Salt and water
+        is_correct: true
+-   model: sim.answer
+    pk: 68
+    fields:
+        question: 20
+        text: Acid and base
+        is_correct: false
+-   model: sim.answer
+    pk: 69
+    fields:
+        question: 20
+        text: Hydrogen gas
+        is_correct: false
+-   model: sim.answer
+    pk: 70
+    fields:
+        question: 20
+        text: Carbon dioxide and water
+        is_correct: false
+-   model: sim.question
+    pk: 21
+    fields:
+        quiz: 3
+        text: Which of the following is a characteristic of salts?
+-   model: sim.answer
+    pk: 71
+    fields:
+        question: 21
+        text: They are ionic compounds
+        is_correct: true
+-   model: sim.answer
+    pk: 72
+    fields:
+        question: 21
+        text: They have a pH of 0
+        is_correct: false
+-   model: sim.answer
+    pk: 73
+    fields:
+        question: 21
+        text: They are covalent compounds
+        is_correct: false
+-   model: sim.answer
+    pk: 74
+    fields:
+        question: 21
+        text: They have a pH of 14
+        is_correct: false
+-   model: sim.question
+    pk: 22
+    fields:
+        quiz: 3
+        text: What is the pH of a neutral solution?
+-   model: sim.answer
+    pk: 75
+    fields:
+        question: 22
+        text: 7
+        is_correct: true
+-   model: sim.answer
+    pk: 76
+    fields:
+        question: 22
+        text: 1
+        is_correct: false
+-   model: sim.answer
+    pk: 77
+    fields:
+        question: 22
+        text: 14
+        is_correct: false
+-   model: sim.answer
+    pk: 78
+    fields:
+        question: 22
+        text: 0
+        is_correct: false
+-   model: sim.question
+    pk: 23
+    fields:
+        quiz: 3
+        text: Which of the following is a strong acid?
+-   model: sim.answer
+    pk: 79
+    fields:
+        question: 23
+        text: Hydrochloric acid (HCl)
+        is_correct: true
+-   model: sim.answer
+    pk: 80
+    fields:
+        question: 23
+        text: Ammonia (NH3)
+        is_correct: false
+-   model: sim.answer
+    pk: 81
+    fields:
+        question: 23
+        text: Sodium hydroxide (NaOH)
+        is_correct: false
+-   model: sim.answer
+    pk: 82
+    fields:
+        question: 23
+        text: Water (H2O)
+        is_correct: false
+-   model: sim.question
+    pk: 24
+    fields:
+        quiz: 3
+        text: What color does phenolphthalein turn in a basic solution?
+-   model: sim.answer
+    pk: 83
+    fields:
+        question: 24
+        text: Pink
+        is_correct: true
+-   model: sim.answer
+    pk: 84
+    fields:
+        question: 24
+        text: Red
+        is_correct: false
+-   model: sim.answer
+    pk: 85
+    fields:
+        question: 24
+        text: Blue
+        is_correct: false
+-   model: sim.answer
+    pk: 86
+    fields:
+        question: 24
+        text: Colorless
+        is_correct: false

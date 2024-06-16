@@ -1,0 +1,236 @@
+-   model: sim.quiz
+    pk: 5
+    fields:
+        name: Electrochemistry
+-   model: sim.question
+    pk: 32
+    fields:
+        quiz: 5
+        text: What is the purpose of a salt bridge in a galvanic cell?
+-   model: sim.answer
+    pk: 115
+    fields:
+        question: 32
+        text: To maintain electrical neutrality by allowing the flow of ions
+        is_correct: true
+-   model: sim.answer
+    pk: 116
+    fields:
+        question: 32
+        text: To separate the two half-cells
+        is_correct: false
+-   model: sim.answer
+    pk: 117
+    fields:
+        question: 32
+        text: To provide a pathway for electrons
+        is_correct: false
+-   model: sim.answer
+    pk: 118
+    fields:
+        question: 32
+        text: To increase the voltage of the cell
+        is_correct: false
+-   model: sim.question
+    pk: 33
+    fields:
+        quiz: 5
+        text: In a redox reaction, what happens to the species that is oxidized?
+-   model: sim.answer
+    pk: 119
+    fields:
+        question: 33
+        text: It loses electrons
+        is_correct: true
+-   model: sim.answer
+    pk: 120
+    fields:
+        question: 33
+        text: It gains electrons
+        is_correct: false
+-   model: sim.answer
+    pk: 121
+    fields:
+        question: 33
+        text: It remains unchanged
+        is_correct: false
+-   model: sim.answer
+    pk: 122
+    fields:
+        question: 33
+        text: It is reduced
+        is_correct: false
+-   model: sim.question
+    pk: 34
+    fields:
+        quiz: 5
+        text: What is the standard electrode potential of a standard hydrogen electrode (SHE)?
+-   model: sim.answer
+    pk: 123
+    fields:
+        question: 34
+        text: 0.00 V
+        is_correct: true
+-   model: sim.answer
+    pk: 124
+    fields:
+        question: 34
+        text: 1.00 V
+        is_correct: false
+-   model: sim.answer
+    pk: 125
+    fields:
+        question: 34
+        text: -1.00 V
+        is_correct: false
+-   model: sim.answer
+    pk: 126
+    fields:
+        question: 34
+        text: 0.50 V
+        is_correct: false
+-   model: sim.question
+    pk: 35
+    fields:
+        quiz: 5
+        text: In a galvanic cell, which direction do electrons flow?
+-   model: sim.answer
+    pk: 127
+    fields:
+        question: 35
+        text: From the anode to the cathode
+        is_correct: true
+-   model: sim.answer
+    pk: 128
+    fields:
+        question: 35
+        text: From the cathode to the anode
+        is_correct: false
+-   model: sim.answer
+    pk: 129
+    fields:
+        question: 35
+        text: From the salt bridge to the anode
+        is_correct: false
+-   model: sim.answer
+    pk: 130
+    fields:
+        question: 35
+        text: From the salt bridge to the cathode
+        is_correct: false
+-   model: sim.question
+    pk: 36
+    fields:
+        quiz: 5
+        text: What is the main function of an electrolytic cell?
+-   model: sim.answer
+    pk: 131
+    fields:
+        question: 36
+        text: To use electrical energy to drive a non-spontaneous chemical reaction
+        is_correct: true
+-   model: sim.answer
+    pk: 132
+    fields:
+        question: 36
+        text: To produce electrical energy from a spontaneous chemical reaction
+        is_correct: false
+-   model: sim.answer
+    pk: 133
+    fields:
+        question: 36
+        text: To measure the pH of a solution
+        is_correct: false
+-   model: sim.answer
+    pk: 134
+    fields:
+        question: 36
+        text: To separate two half-cells
+        is_correct: false
+-   model: sim.question
+    pk: 37
+    fields:
+        quiz: 5
+        text: In electrochemistry, what does the term 'anode' refer to?
+-   model: sim.answer
+    pk: 135
+    fields:
+        question: 37
+        text: The electrode where oxidation occurs
+        is_correct: true
+-   model: sim.answer
+    pk: 136
+    fields:
+        question: 37
+        text: The electrode where reduction occurs
+        is_correct: false
+-   model: sim.answer
+    pk: 137
+    fields:
+        question: 37
+        text: The positive electrode in both galvanic and electrolytic cells
+        is_correct: false
+-   model: sim.answer
+    pk: 138
+    fields:
+        question: 37
+        text: The electrode where no reaction occurs
+        is_correct: false
+-   model: sim.question
+    pk: 38
+    fields:
+        quiz: 5
+        text: What is the role of the cathode in a galvanic cell?
+-   model: sim.answer
+    pk: 139
+    fields:
+        question: 38
+        text: It is the electrode where reduction occurs
+        is_correct: true
+-   model: sim.answer
+    pk: 140
+    fields:
+        question: 38
+        text: It is the electrode where oxidation occurs
+        is_correct: false
+-   model: sim.answer
+    pk: 141
+    fields:
+        question: 38
+        text: It is the positive electrode in all electrochemical cells
+        is_correct: false
+-   model: sim.answer
+    pk: 142
+    fields:
+        question: 38
+        text: It is the site where electrons are produced
+        is_correct: false
+-   model: sim.question
+    pk: 39
+    fields:
+        quiz: 5
+        text: How is the cell potential of an electrochemical cell calculated?
+-   model: sim.answer
+    pk: 143
+    fields:
+        question: 39
+        text: By subtracting the anode potential from the cathode potential
+        is_correct: true
+-   model: sim.answer
+    pk: 144
+    fields:
+        question: 39
+        text: By adding the anode potential to the cathode potential
+        is_correct: false
+-   model: sim.answer
+    pk: 145
+    fields:
+        question: 39
+        text: By subtracting the cathode potential from the anode potential
+        is_correct: false
+-   model: sim.answer
+    pk: 146
+    fields:
+        question: 39
+        text: By adding the absolute values of the anode and cathode potentials
+        is_correct: false

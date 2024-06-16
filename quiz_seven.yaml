@@ -1,0 +1,265 @@
+-   model: sim.quiz
+    pk: 8
+    fields:
+        name: Metals
+-   model: sim.question
+    pk: 57
+    fields:
+        quiz: 8
+        text: Which of the following is a characteristic property of metals?
+-   model: sim.answer
+    pk: 215
+    fields:
+        question: 57
+        text: High electrical conductivity
+        is_correct: true
+-   model: sim.answer
+    pk: 216
+    fields:
+        question: 57
+        text: Brittleness
+        is_correct: false
+-   model: sim.answer
+    pk: 217
+    fields:
+        question: 57
+        text: Low melting point
+        is_correct: false
+-   model: sim.answer
+    pk: 218
+    fields:
+        question: 57
+        text: Poor thermal conductivity
+        is_correct: false
+-   model: sim.question
+    pk: 58
+    fields:
+        quiz: 8
+        text: Which metal is most commonly used in electrical wiring?
+-   model: sim.answer
+    pk: 219
+    fields:
+        question: 58
+        text: Copper
+        is_correct: true
+-   model: sim.answer
+    pk: 220
+    fields:
+        question: 58
+        text: Iron
+        is_correct: false
+-   model: sim.answer
+    pk: 221
+    fields:
+        question: 58
+        text: Aluminum
+        is_correct: false
+-   model: sim.answer
+    pk: 222
+    fields:
+        question: 58
+        text: Silver
+        is_correct: false
+-   model: sim.question
+    pk: 59
+    fields:
+        quiz: 8
+        text: Which process is used to extract iron from its ore?
+-   model: sim.answer
+    pk: 223
+    fields:
+        question: 59
+        text: Blast furnace
+        is_correct: true
+-   model: sim.answer
+    pk: 224
+    fields:
+        question: 59
+        text: Electrolysis
+        is_correct: false
+-   model: sim.answer
+    pk: 225
+    fields:
+        question: 59
+        text: Bessemer process
+        is_correct: false
+-   model: sim.answer
+    pk: 226
+    fields:
+        question: 59
+        text: Smelting
+        is_correct: false
+-   model: sim.question
+    pk: 60
+    fields:
+        quiz: 8
+        text: Which property of metals allows them to be drawn into wires?
+-   model: sim.answer
+    pk: 227
+    fields:
+        question: 60
+        text: Ductility
+        is_correct: true
+-   model: sim.answer
+    pk: 228
+    fields:
+        question: 60
+        text: Malleability
+        is_correct: false
+-   model: sim.answer
+    pk: 229
+    fields:
+        question: 60
+        text: Conductivity
+        is_correct: false
+-   model: sim.answer
+    pk: 230
+    fields:
+        question: 60
+        text: Luster
+        is_correct: false
+-   model: sim.question
+    pk: 61
+    fields:
+        quiz: 8
+        text: What is the primary component of stainless steel?
+-   model: sim.answer
+    pk: 231
+    fields:
+        question: 61
+        text: Iron
+        is_correct: true
+-   model: sim.answer
+    pk: 232
+    fields:
+        question: 61
+        text: Copper
+        is_correct: false
+-   model: sim.answer
+    pk: 233
+    fields:
+        question: 61
+        text: Aluminum
+        is_correct: false
+-   model: sim.answer
+    pk: 234
+    fields:
+        question: 61
+        text: Nickel
+        is_correct: false
+-   model: sim.question
+    pk: 62
+    fields:
+        quiz: 8
+        text: Which metal is liquid at room temperature?
+-   model: sim.answer
+    pk: 235
+    fields:
+        question: 62
+        text: Mercury
+        is_correct: true
+-   model: sim.answer
+    pk: 236
+    fields:
+        question: 62
+        text: Lead
+        is_correct: false
+-   model: sim.answer
+    pk: 237
+    fields:
+        question: 62
+        text: Zinc
+        is_correct: false
+-   model: sim.answer
+    pk: 238
+    fields:
+        question: 62
+        text: Tin
+        is_correct: false
+-   model: sim.question
+    pk: 63
+    fields:
+        quiz: 8
+        text: What is the main ore of aluminum?
+-   model: sim.answer
+    pk: 239
+    fields:
+        question: 63
+        text: Bauxite
+        is_correct: true
+-   model: sim.answer
+    pk: 240
+    fields:
+        question: 63
+        text: Hematite
+        is_correct: false
+-   model: sim.answer
+    pk: 241
+    fields:
+        question: 63
+        text: Galena
+        is_correct: false
+-   model: sim.answer
+    pk: 242
+    fields:
+        question: 63
+        text: Chalcopyrite
+        is_correct: false
+-   model: sim.question
+    pk: 64
+    fields:
+        quiz: 8
+        text: Which metal is known for its low density and high strength, often used in aerospace applications?
+-   model: sim.answer
+    pk: 243
+    fields:
+        question: 64
+        text: Titanium
+        is_correct: true
+-   model: sim.answer
+    pk: 244
+    fields:
+        question: 64
+        text: Iron
+        is_correct: false
+-   model: sim.answer
+    pk: 245
+    fields:
+        question: 64
+        text: Copper
+        is_correct: false
+-   model: sim.answer
+    pk: 246
+    fields:
+        question: 64
+        text: Nickel
+        is_correct: false
+-   model: sim.question
+    pk: 65
+    fields:
+        quiz: 8
+        text: What is the primary use of zinc in industry?
+-   model: sim.answer
+    pk: 247
+    fields:
+        question: 65
+        text: Galvanization to prevent rusting
+        is_correct: true
+-   model: sim.answer
+    pk: 248
+    fields:
+        question: 65
+        text: Making jewelry
+        is_correct: false
+-   model: sim.answer
+    pk: 249
+    fields:
+        question: 65
+        text: Conducting electricity
+        is_correct: false
+-   model: sim.answer
+    pk: 250
+    fields:
+        question: 65
+        text: Manufacturing coins
+        is_correct: false

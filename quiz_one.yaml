@@ -1,0 +1,147 @@
+-   model: sim.quiz
+    pk: 2
+    fields:
+        name: Energy Changes in Physical and Chemical Processes
+-   model: sim.question
+    pk: 11
+    fields:
+        quiz: 2
+        text: What is the definition of an endothermic reaction?
+-   model: sim.answer
+    pk: 41
+    fields:
+        question: 11
+        text: A reaction that absorbs energy from its surroundings
+        is_correct: true
+-   model: sim.answer
+    pk: 42
+    fields:
+        question: 11
+        text: A reaction that releases energy to its surroundings
+        is_correct: false
+-   model: sim.question
+    pk: 12
+    fields:
+        quiz: 2
+        text: What is the main difference between physical and chemical changes in terms of energy?
+-   model: sim.answer
+    pk: 43
+    fields:
+        question: 12
+        text: Physical changes involve changes in energy but do not change the substance's chemical identity
+        is_correct: true
+-   model: sim.answer
+    pk: 44
+    fields:
+        question: 12
+        text: Chemical changes do not involve changes in energy
+        is_correct: false
+-   model: sim.question
+    pk: 13
+    fields:
+        quiz: 2
+        text: What happens to the energy in an exothermic reaction?
+-   model: sim.answer
+    pk: 45
+    fields:
+        question: 13
+        text: Energy is released into the surroundings
+        is_correct: true
+-   model: sim.answer
+    pk: 46
+    fields:
+        question: 13
+        text: Energy is absorbed from the surroundings
+        is_correct: false
+-   model: sim.question
+    pk: 14
+    fields:
+        quiz: 2
+        text: During a phase change from solid to liquid, what type of energy change occurs?
+-   model: sim.answer
+    pk: 47
+    fields:
+        question: 14
+        text: Absorption of energy
+        is_correct: true
+-   model: sim.answer
+    pk: 48
+    fields:
+        question: 14
+        text: Release of energy
+        is_correct: false
+-   model: sim.question
+    pk: 15
+    fields:
+        quiz: 2
+        text: In chemical reactions, where is the energy stored?
+-   model: sim.answer
+    pk: 49
+    fields:
+        question: 15
+        text: In the bonds between atoms
+        is_correct: true
+-   model: sim.answer
+    pk: 50
+    fields:
+        question: 15
+        text: In the nucleus of the atoms
+        is_correct: false
+-   model: sim.question
+    pk: 16
+    fields:
+        quiz: 2
+        text: What term describes the minimum amount of energy needed for a chemical reaction to occur?
+-   model: sim.answer
+    pk: 51
+    fields:
+        question: 16
+        text: Activation energy
+        is_correct: true
+-   model: sim.answer
+    pk: 52
+    fields:
+        question: 16
+        text: Potential energy
+        is_correct: false
+-   model: sim.answer
+    pk: 53
+    fields:
+        question: 16
+        text: Kinetic energy
+        is_correct: false
+-   model: sim.answer
+    pk: 54
+    fields:
+        question: 16
+        text: Thermal energy
+        is_correct: false
+-   model: sim.question
+    pk: 17
+    fields:
+        quiz: 2
+        text: Which law states that energy cannot be created or destroyed, only transferred or transformed?
+-   model: sim.answer
+    pk: 55
+    fields:
+        question: 17
+        text: The Law of Conservation of Energy
+        is_correct: true
+-   model: sim.answer
+    pk: 56
+    fields:
+        question: 17
+        text: The Law of Thermodynamics
+        is_correct: false
+-   model: sim.answer
+    pk: 57
+    fields:
+        question: 17
+        text: The Law of Conservation of Mass
+        is_correct: false
+-   model: sim.answer
+    pk: 58
+    fields:
+        question: 17
+        text: The Law of Energy Transfer
+        is_correct: false
